@@ -1,0 +1,45 @@
+.btn{
+    @extend .px-3;
+    @extend .py-1;
+    @extend .mx-1;
+    @extend .my-1;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    color: inherit;
+    display: inline-block;
+    cursor: pointer;
+    font-size: inherit !important;
+}
+
+@each $color, $value in $colors {
+    .btn-bg-#{$color}{
+        background: $value;
+    }
+}
+
+@each $color, $value in $colors {
+    .btn-bg-#{$color}{
+        background: $value;
+        &:hover{
+            background: darken($value, 10%);
+            transition: .7s;
+        }
+    }
+}
+
+@each $color, $value in $colors {
+    .btn-text-#{$color}{
+        color: $value;
+    }
+}
+
+@each $color, $value in $colors {
+    .btn-text-#{$color}{
+        color: $value;
+        &:hover{
+            color: darken($value, 10%);
+            transition: .7s;
+        }
+    }
+}

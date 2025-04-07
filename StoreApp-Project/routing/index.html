@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="products">
+
+    </div>
+    <script src="db.js"></script>
+    <script>
+        const products = document.querySelector('.products');
+        for (let i = 0; i < db.length; i++) {
+            products.innerHTML+=`
+            <div class="product">
+                <h3>${db[i].name}</h3>
+                <a href="product.html?id=${db[i].id}">Show Detail</a>
+            </div>
+            `
+        }
+    </script>
+</body>
+</html>

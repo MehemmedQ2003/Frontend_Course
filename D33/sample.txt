@@ -1,0 +1,6 @@
+Ifyou’ve browsed the internet for any amount of time, you will likely come across a reCAPTCHA box. These boxes appear when you first enter certain websites and ask you to check a box to prove that you are not a robot. The box is labeled “I’m not a robot,” and everyone clicks without a second thought because they aren’t robots. Sometimes, clicking the box forces you to do a series of visual puzzles that ask you things like clicking on all of the images with a motorcycle in them or clicking on all of the pictures with streetlights in them. These basic tests lead people to believe that robots cannot do them. But that isn’t the case.
+
+Online robots, or just “bots,” as they are often called, are highly advanced. They have been trained to do everything from playing Runescape to running entire X (formerly Twitter) account farms. So they can clearly click on a box or an image featuring a stop sign. The trick is that these tests aren’t determining whether or not you can click these things but how you click them.
+
+The way that reCAPTCHA boxes determine whether you are human or not is how slow and inefficient you are compared to a machine.
+

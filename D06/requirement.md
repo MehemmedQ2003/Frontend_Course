@@ -1,0 +1,4 @@
+- Yeni bir iş əlavə etsin
+- Əlavə olunan işi silsin
+- İşi tamamlanmış olaraq bilsin
+- İşi edit edə bilsin

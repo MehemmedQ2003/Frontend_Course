@@ -1,0 +1,6 @@
+.form-element{
+    @extend .px-4;
+    @extend .py-2;
+    border: 1px solid map-get($colors, primary);
+    background: map-get($colors, light);
+}

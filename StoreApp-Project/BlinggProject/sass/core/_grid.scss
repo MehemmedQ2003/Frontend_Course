@@ -1,0 +1,43 @@
+// todo Grid classes
+
+@for $i from 1 through $grid-columns{
+    .col-#{$i}{
+        width: calc((100% / 12) * #{$i})
+    }
+}
+
+.container{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px !important;
+    box-sizing: border-box;
+}
+
+.container-fluid{
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px !important;
+    box-sizing: border-box;
+}
+
+.row{
+    width: 100%;
+    @extend .d-flex;
+    @extend .flex-direction-row;
+    @extend .flex-wrap;
+    margin: 0 15px !important;
+    box-sizing: border-box;
+}
+
+
+
+@each $breakpoint, $value in $breakpoints{
+    @media (min-width: $value){
+        @for $i from 1 through $grid-columns{
+            .col-#{$breakpoint}-#{$i}{
+                width: calc((100% / 12) * #{$i})
+            }
+        }
+    }
+}

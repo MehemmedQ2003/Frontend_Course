@@ -1,0 +1,20 @@
+// Import core
+@import "core/variables";
+@import "core/paddings";
+@import "core/margins";
+@import "core/grid";
+@import "core/colors";
+@import "core/typography";
+@import "core/flex";
+@import "core/reset";
+@import "core/text";
+
+// Import blocks
+@import "blocks/button";
+
+// Import components
+@import "components/card";
+
+// Import pages
+@import "pages/main";
+@import "pages/services";

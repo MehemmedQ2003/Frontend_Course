@@ -1,0 +1,53 @@
+{
+  "kind": "youtube#videoListResponse",
+  "etag": "etag_value",
+  "items": [
+    {
+      "kind": "youtube#video",
+      "etag": "etag_value",
+      "id": "video_id",
+      "snippet": {
+        "publishedAt": "2023-10-01T00:00:00Z",
+        "channelId": "channel_id",
+        "title": "Sample Video Title",
+        "description": "This is a sample video description.",
+        "thumbnails": {
+          "default": {
+            "url": "https://example.com/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://example.com/medium.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://example.com/high.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Sample Channel Title",
+        "tags": ["sample", "video", "tags"],
+        "categoryId": "22",
+        "liveBroadcastContent": "none",
+        "localized": {
+          "title": "Sample Video Title",
+          "description": "This is a sample video description."
+        }
+      },
+      "statistics": {
+        "viewCount": "1000",
+        "likeCount": "100",
+        "dislikeCount": "10",
+        "favoriteCount": "0",
+        "commentCount": "20"
+      }
+    }
+  ],
+  "pageInfo": {
+    "totalResults": 1,
+    "resultsPerPage": 1
+  }
+}

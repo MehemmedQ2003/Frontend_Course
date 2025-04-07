@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        data={
+            "products":[
+                {
+                    "id":1,
+                    "name":"Product 1",
+                    "price":100,
+                    "category_id":1
+                },
+                {
+                    "id":2,
+                    "name":"Product 2",
+                    "price":200,
+                    "category_id":1
+                },
+                {
+                    "id":3,
+                    "name":"Product 3",
+                    "price":300,
+                    "category_id":2
+                }
+            ],
+            "categories":[
+                {
+                    "id":1,
+                    "name":"Category 1",
+
+                },
+                {
+                    "id":2,
+                    "name":"Category 2",
+
+                }
+            ]
+        }
+
+        function renderProductsByCategory(category_id){
+            result=[];
+            for(let i=0;i<data.products.length;i++){
+                if(data.products[i].category_id==category_id){
+                    result.push(data.products[i]);
+                }
+            }
+            return result;
+
+        }
+        console.log(renderProductsByCategory(2));
+    </script>
+</body>
+</html>

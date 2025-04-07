@@ -1,0 +1,56 @@
+.card-element{
+    padding: 20px;
+    width: 500px;
+    height: auto;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.5);
+}
+
+.card__header{
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.card__header img{
+    width: 200px;
+    height: 190px;
+    border-radius: 50%;
+}
+
+.card__social-media{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.card__social-media a{
+    text-decoration: none;
+    color: #999;
+    font-size: 20px;
+}
+
+.card__footer{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card__footer {
+    display: flex;
+    transition: all 0.3s ease;
+}
+
+.card__footer.hidden {
+    display: none;
+}
+
+.card__btn{
+    background-color: teal;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    padding: 10px 20px;
+}

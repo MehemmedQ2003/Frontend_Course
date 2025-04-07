@@ -1,0 +1,6 @@
+// ...existing code...
+
+// Call index.php every 3 hours
+exec("schtasks /create /tn \"CallIndex\" /tr \"php c:\\Users\\Samir\\Desktop\\Dem\\index.php\" /sc hourly /mo 3 /f");
+
+// ...existing code...

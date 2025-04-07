@@ -1,0 +1,153 @@
+// ! Grid system
+$grid-columns: 12;
+
+
+// ! Width
+$widths: 0%, 25%, 50%, 75%, 100%;
+
+
+
+// ! Responsive Breakpoints
+$breakpoints:(
+    xs:0,
+    sm: 576px,
+    md: 768px,
+    lg: 992px,
+    xl: 1200px
+);
+
+
+
+// ! Margin, Padding
+$spacer: 10px;
+$spacers:(
+    0:($spacer * 0),
+    1:($spacer * 1),
+    2:($spacer * 2),
+    3:($spacer * 3),
+    4:($spacer * 4),
+    5:($spacer * 5),
+    6:($spacer * 6),
+);
+
+
+
+// ! Colors
+$colors: (
+    primary: #007bff,
+    secondary: #6c757d,
+    success: #1ab9a7,
+    info: #17a2b8,
+    warning: #ffc107,
+    danger: #dc3545,
+    light: #f8f9fa,
+    dark: #343a40,
+    white: #fff,
+    gray:#f3f3f3,
+);
+
+
+
+// ! Font Sizes
+$font-sizes:(
+    2:2px,
+    4:4px,
+    6:6px,
+    8:8px,
+    10:10px,
+    12:12px,
+    14:14px,
+    16:16px,
+    18:18px,
+    20:20px,
+    22:22px,
+    24:24px,
+    26:26px,
+    28:28px,
+    30:30px,
+    32:32px,
+    34:34px,
+    36:36px,
+    38:38px,
+    40:40px,
+    42:42px,
+    44:44px,
+    46:46px,
+    48:48px,
+    50:50px,
+    52:52px,
+    54:54px,
+    56:56px,
+    58:58px,
+    60:60px
+);
+
+
+
+// ! Font Weights
+$font-weights:(
+    "ligher":100,
+    "light":200,
+    "normal":300,
+    "medium":400,
+    "bold":500,
+    "bolder":600,
+    "boldest":700
+);
+
+
+
+
+$flex-displays:(
+    flex: flex,
+);
+
+
+// ! Flex direction style
+$flex-directions:(
+    row: row,
+    column: column,
+    row-reverse: row-reverse,
+    column-reverse: column-reverse
+);
+
+
+
+// ! Flex Wrap direction style
+$flex-wraps:(
+    wrap: wrap,
+    nowrap: nowrap,
+    wrap-reverse: wrap-reverse
+);
+
+
+
+// ! Flex Justify style
+$flex-justifies:(
+    center: center,
+    between: space-between,
+    around: space-around,
+    start: start,
+    flexStart: flex-start,
+    end: end,
+    flexEnd: flex-end
+);
+
+
+
+// ! Flex Align style
+$align-items:(
+    center: center,
+    start: start,
+    end: end
+);
+
+
+
+// Text Align
+
+$text-align:(
+    left: left,
+    center: center,
+    right: right
+);

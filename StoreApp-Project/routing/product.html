@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="product">
+        <h3>Product1</h3>
+        <a href="index.html">Go Back</a>
+    </div>
+    <script src="db.js"></script>
+    <script>
+        // read url params
+        const urlParams = new URLSearchParams(window.location.search);
+        const id = urlParams.get('id');
+        let title=document.querySelector('h3');
+        for (let i = 0; i < db.length; i++) {
+            if(db[i].id==id){
+                title.innerHTML=db[i].name;
+            }
+        }
+    </script>
+
+    
+        
+</body>
+</html>

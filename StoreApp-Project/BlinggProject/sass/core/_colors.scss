@@ -1,0 +1,16 @@
+// todo Colors classes
+
+
+@each $key, $value in $colors{
+    .bg-#{$key}{
+        background-color: $value !important;
+    }
+
+    .text-#{$key}{
+        color: $value !important;
+    }
+
+    .border-#{$key}{
+        border-color: $value !important;
+    }
+}

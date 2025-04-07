@@ -1,0 +1,127 @@
+{
+    "features": [
+        {
+            "id": 1,
+            "title": "Own content or RSS feed",
+            "description": "You can either embed the content inside the html page or set a RSS feed and the content will be generated from it.."
+        },
+        {
+            "id": 2,
+            "title": "Any HTML Content",
+            "description": "Any content can be inserted inside each news item. Those will be handled and displayed properly when the news are closed and will look the way you set them when the news is enlarged."
+        },
+        {
+            "id": 3,
+            "title": "Super Customizable",
+            "description": "30+ smart js options that can change the feel and look of the widget.From sizes, animations to text and styles. Everything can be customized and dynamically changed via CSS."
+        },
+        {
+            "id": 4,
+            "title": "Set Height or Set Number of News",
+            "description": "You can either set a height and the plugin will calculate how many news items to display, or you can set the number of items to display and the height will be calculated accordingly."
+        },
+        {
+            "id": 5,
+            "title": "Full-Page Reader or Widget Reader",
+            "description": "You can choose between 2 different types of readers. The Full-Page reader opens a full page lightbox style reader while the widget opens the article in the place of the widget. 10 built nimations"
+        },
+        {
+            "id": 6,
+            "title": "8 Different Arrows Positions",
+            "description": "I've included 8 different button positions: left, right, sides, top-left, top-right, bottom-left, bottom-right, top/bottom."
+        },
+        {
+            "id": 7,
+            "title": "External Links",
+            "description": "You can add external links to your news/articles and set them as the default open action. You can also add a continue reading button inside the article iteslf. You can also set its text via a js option."
+        },
+        {
+            "id": 8,
+            "title": "Customizable Link Text",
+            "description": "You can edit the link text and add the title to the link with suffexes or prefixes. You can change any text used inside the widget from the options directly."
+        },
+        {
+            "id": 9,
+            "title": "Override Options for Specific Items",
+            "description": "For example you can add specific link texts(check example, item 4). You can also set cropping on and off, etc.. Those options are set directly to the item, explained in documentation."
+        },
+        {
+            "id": 10,
+            "title": "Multiple Animations Included",
+            "description": "Every movement can be customized. You can choose from multiple animations, set their duration and even add a delay. 2 Hover Styles included."
+        },
+        {
+            "id": 11,
+            "title": "Image Support",
+            "description": "Add images to the News. You can set image cropping on/off and define a fixed height. Ofcourse when the image is clicked it is expanded! You can override the settings for specific items."
+        },
+        {
+            "id": 12,
+            "title": "Unminified Source",
+            "description": "You get unminified version of JS code and nicely organized CSS files. You're free to modify any source files to fit your needs."
+        }
+    ],
+    "widgetModeExamples": [
+        {
+            "id": 1,
+            "title": "Press on Read More to Open",
+            "date": "March 11, 2013",
+            "img": "../assets/img/1.jpg",
+            "description": "2 Different Styles to continue reading this. The Full page Style and In-Widget Style. This is the full page view. Check examples for the In-widget. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat."
+        },
+        {
+            "id": 2,
+            "title": "Links can be direct or as Read More buttons inside the News Reader",
+            "date": "April 5, 2013",
+            "img": "assets/img/2.jpg",
+            "description": "Links can be 2 types readmore links and direct links. The readmore type will add a Continue reading button at the end of the article however the direct type will open the article in a new tab (can be self). To define a readmore link, add data-link-type to the list item. Otherwise the link will be direct. Lorem ipsum dolor [...]"
+        },
+        {
+            "id": 3,
+            "title": "This item is an external link",
+            "date": "September 18, 2011",
+            "img": "assets/img/3.jpg",
+            "description": "When this is pressed, the user will be redirected to a link predefined. You can set the target."
+        },
+        {
+            "id": 4,
+            "title": "Custome Link Text, hover when chosen to check.",
+            "date": "January 22, 2020",
+            "img": "assets/img/1.jpg",
+            "description": "You can add custom link text to any specific item. You can also choose to show the title or not, and where. Add to any news item the following code and viola!: data-link-text='CUSTOM LINK TEXT!' d [...]"
+        },
+        {
+            "id": 5,
+            "title": "Custome Link Text, hover when chosen to check.",
+            "date": "January 22, 2020",
+            "img": "assets/img/5.jpg",
+            "description": "You can add custom link text to any specific item. You can also choose to show the title or not, and where. Add to any news item the following code and viola!: data-link-text='CUSTOM LINK TEXT!' d [...]"
+        }
+    ],
+    "moreExamples": [
+        {
+            "id": 1,
+            "img": "../assets/img/exampleImg1.jpg",
+            "title": "Mini Theme + Different Options",
+            "description": "Displays how you can change sizes, the plugin animations will adapt directly. It also display different option."
+        },
+        {
+            "id": 2,
+            "img":"../assets/img/exampleImg2.jpg",
+            "title": "All black",
+            "description": "Displays how you can change sizes, the plugin animations will adapt directly. It also display different option."
+        },
+        {
+            "id": 3,
+            "img":"../assets/img/exampleImg3.jpg",
+            "title": "RSS feed",
+            "description": "Loads RSS feeds in a full width mode width with news tems aligned to the right."
+        },
+        {
+            "id": 4,
+            "img":"../assets/img/exampleImg4.jpg",
+            "title": "Elements and Texts",
+            "description": "Displays a change in the dates and texts used. Only CSS!"
+        }
+    ]
+}

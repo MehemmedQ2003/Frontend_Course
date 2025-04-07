@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0-beta1/css/bootstrap.min.css"
+    />
+
+    <title>Login</title>
+  </head>
+
+  <body class="d-flex vw-100 vh-100 align-items-center justify-content-center">
+    <form id="loginForm">
+      <div class="mb-3">
+        <input type="email" class="form-control" placeholder="Email" name="email" />
+      </div>
+      <div class="mb-3">
+        <input type="password" class="form-control" placeholder="Password" name="password" />
+      </div>
+      <button type="submit" class="btn btn-primary loginBtn">Submit</button>
+    </form>
+
+    <script>
+      let loginBtn = document.querySelector(".loginBtn");
+      let storedData = localStorage.getItem("users");
+      let arrayStoredData = JSON.parse(storedData);
+
+      loginBtn.addEventListener("click", (e) => {
+        e.preventDefault();
+
+        let form = document.querySelector("#loginForm");
+        let email = form.email.value;
+        let password = form.password.value;
+
+        arrayStoredData.forEach((element) => {
+          if (
+            element.email == document.getElementsByName("email")[0].value &&
+            element.password == document.getElementsByName("password")[0].value
+          ) {
+            alert("Login Successfull");
+            localStorage.setItem("isLoggedIn", 1);
+            localStorage.setItem("loggedUserId", element.id);
+
+            window.location.href = "profile.html";
+          }
+        });
+      });
+    </script>
+
+    <script src="js/app.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0-beta1/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

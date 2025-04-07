@@ -1,0 +1,39 @@
+.card{
+    text-align: center;
+    border: 1px solid map-get($colors, primary);
+    @extend .m-1;
+    @extend .py-1;
+    .card-image{
+        @extend .px-4;
+        @extend .font-weight-bold;
+    }
+
+    .card-header{
+        h1{
+            @extend .px-4;
+            @extend .font-weight-bold;
+        }
+    }
+
+    .card-body{
+        p{
+            @extend .px-4;
+            @extend .font-weight-normal;
+        }
+    }
+
+    .card-action{
+        a{
+            @extend .mx-4;
+            @extend .btn;
+            @extend .btn-bg-primary;
+            @extend .text-white;
+        }
+    }
+}
+
+@media (min-width:  map-get($breakpoints, "xs")){
+    .card{
+        margin-bottom: map-get($spacers, 5);
+    }
+}

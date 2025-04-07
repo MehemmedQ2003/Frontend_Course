@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0-beta1/css/bootstrap.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+
+    <title>Hello, world!</title>
+  </head>
+  <body class="d-flex vw-100 vh-100 align-items-center justify-content-center">
+    <div class="container">
+      <div class="row">
+        <div class="col-8 offset-2">
+          <div class="btn btn-primary" onclick="addToCart()">
+            Add
+          </div>
+          <div class="shopping-card border">
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0-beta1/js/bootstrap.bundle.min.js"></script>
+    <script>
+        let count=1;
+        function addToCart(){
+            let shoppingCard = document.querySelector('.shopping-card');
+            
+            shoppingCard.innerHTML += `
+                <div class="label label-primary border m-1 d-flex justify-content-between">
+                    
+                Item ${count++}
+                <a href="#" class="btn btn-danger" onclick="removeItem(this)">Remove</a>
+            
+            </div>`;
+                        
+        }
+
+        function removeItem(item){
+            item.parentElement.remove();
+        }
+     </script>
+  </body>
+</html>
